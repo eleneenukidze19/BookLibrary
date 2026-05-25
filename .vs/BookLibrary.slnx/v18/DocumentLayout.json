@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\services\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\services\\implementations\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\services\\implementations\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\repositories\\implementations\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\repositories\\implementations\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\migrations\\20260525144935_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\migrations\\20260525144935_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|c:\\users\\msi\\desktop\\experimen\\booklibrary\\booklibrary\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E16AD1-05A4-DC87-EC3B-6C3BE0F020D9}|BookLibrary\\BookLibrary.csproj|solutionrelative:booklibrary\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\appsettings.json",
+              "RelativeDocumentMoniker": "BookLibrary\\appsettings.json",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\appsettings.json",
+              "RelativeToolTip": "BookLibrary\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-25T19:05:15.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookLibrary\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "BookLibrary\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T19:05:02.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "BookLibrary\\Views\\Book\\Create.cshtml",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "BookLibrary\\Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T19:04:58.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Services\\Interfaces\\IBookService.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Services\\Interfaces\\IBookService.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Services\\Interfaces\\IBookService.cs",
+              "RelativeToolTip": "BookLibrary\\Services\\Interfaces\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:53.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Services\\Implementations\\BookService.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Services\\Implementations\\BookService.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Services\\Implementations\\BookService.cs",
+              "RelativeToolTip": "BookLibrary\\Services\\Implementations\\BookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:49.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Repositories\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Repositories\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Repositories\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "BookLibrary\\Repositories\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:46.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Program.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Program.cs",
+              "RelativeToolTip": "BookLibrary\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:00:13.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Repositories\\Implementations\\BookRepository.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Repositories\\Implementations\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Repositories\\Implementations\\BookRepository.cs",
+              "RelativeToolTip": "BookLibrary\\Repositories\\Implementations\\BookRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:40.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Models\\Genre.cs",
+              "RelativeToolTip": "BookLibrary\\Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:36.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "BookLibrary\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:34.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Models\\Book.cs",
+              "RelativeToolTip": "BookLibrary\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:28.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "BookLibrary\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:17.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260525144935_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Migrations\\20260525144935_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Migrations\\20260525144935_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Migrations\\20260525144935_InitialCreate.cs",
+              "RelativeToolTip": "BookLibrary\\Migrations\\20260525144935_InitialCreate.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:04:04.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BookLibrary\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:03:57.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BookLibrary\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:03:53.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookLibrary\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookLibrary\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T19:03:38.869Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+﻿@model List<BookLibrary.Models.Book>
+
+@{
+    ViewData["Title"] = "Book Library";
+}
+
+<h2>📚 Book Library</h2>
+
+<form method="get" asp-action="Index" asp-controller="Book" class="mb-3">
+    <div class="d-flex gap-2 align-items-center">
+        <select name="genre" class="form-select w-auto">
+            <option value="">-- All Genres --</option>
+            @foreach (var g in (IEnumerable<BookLibrary.Models.Genre>)ViewBag.Genres)
+            {
+                <option value="@g"
+                        selected="@(ViewBag.SelectedGenre?.ToString() == g.ToString() ? "selected" : null)">
+                    @g
+                </option>
+            }
+        </select>
+        <button type="submit" class="btn btn-primary">Filter</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Clear</a>
+    </div>
+</form>
+
+<a asp-action="Create" class="btn btn-success mb-3">+ Add New Book</a>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No books found for the selected genre.</div>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Year</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.Genre</td>
+                    <td>@book.Year</td>
+                    <td>
+                        <form method="post" asp-action="Delete" asp-route-id="@book.Id">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="return confirm('Delete this book?')">
+                                🗑 Delete
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
