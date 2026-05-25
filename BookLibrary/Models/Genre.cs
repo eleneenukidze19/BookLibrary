@@ -7,6 +7,11 @@
         Science,
         History,
         Fantasy,
-        Biography
+        Biography,
+        Mystery,
+        Horror,
+        Memoir,
+        Novel,
+        Romance
     }
 }
