@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\BookLibrary.csproj": {}
+    "C:\\Users\\msi\\Desktop\\Mini projects\\Book-Library\\BookLibrary\\BookLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\BookLibrary.csproj": {
+    "C:\\Users\\msi\\Desktop\\Mini projects\\Book-Library\\BookLibrary\\BookLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\msi\\Desktop\\Mini projects\\Book-Library\\BookLibrary\\BookLibrary.csproj",
         "projectName": "BookLibrary",
-        "projectPath": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\BookLibrary.csproj",
+        "projectPath": "C:\\Users\\msi\\Desktop\\Mini projects\\Book-Library\\BookLibrary\\BookLibrary.csproj",
         "packagesPath": "C:\\Users\\msi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msi\\Desktop\\Experimen\\BookLibrary\\BookLibrary\\obj\\",
+        "outputPath": "C:\\Users\\msi\\Desktop\\Mini projects\\Book-Library\\BookLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
