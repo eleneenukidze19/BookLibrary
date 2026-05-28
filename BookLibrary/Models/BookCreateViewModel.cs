@@ -2,10 +2,8 @@
 
 namespace BookLibrary.Models
 {
-    public class Book
+    public class BookCreateViewModel
     {
-        public int Id { get; set; }
-
         [Required]
         [StringLength(150)]
         public string Title { get; set; } = string.Empty;
@@ -14,9 +12,12 @@ namespace BookLibrary.Models
         [StringLength(100)]
         public string Author { get; set; } = string.Empty;
 
-        public ICollection<BookGenre> BookGenres { get; set; } = new List<BookGenre>();
-
         [Range(1000, 2100)]
         public int Year { get; set; }
+
+        [MinLength(1, ErrorMessage = "Please select at least one genre.")]
+        public List<int> SelectedGenreIds { get; set; } = new();
+
+        public List<Genre> AllGenres { get; set; } = new();
     }
 }

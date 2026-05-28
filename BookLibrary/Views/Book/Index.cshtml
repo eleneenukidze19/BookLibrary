@@ -8,13 +8,13 @@
 
 <form method="get" asp-action="Index" asp-controller="Book" class="mb-3">
     <div class="d-flex gap-2 align-items-center">
-        <select name="genre" class="form-select w-auto">
+        <select name="genreId" class="form-select w-auto">
             <option value="">-- All Genres --</option>
             @foreach (var g in (IEnumerable<BookLibrary.Models.Genre>)ViewBag.Genres)
             {
-                <option value="@g"
-                        selected="@(ViewBag.SelectedGenre?.ToString() == g.ToString() ? "selected" : null)">
-                    @g
+                <option value="@g.Id"
+                        selected="@((ViewBag.SelectedGenreId as int?) == g.Id ? "selected" : null)">
+                    @g.Name
                 </option>
             }
         </select>
@@ -47,7 +47,9 @@ else
                 <tr>
                     <td>@book.Title</td>
                     <td>@book.Author</td>
-                    <td>@book.Genre</td>
+                    <td>@string.Join(", ", book.BookGenres.Select(bg =>
+          bg.Genre.Name))
+                    </td>
                     <td>@book.Year</td>
                     <td>
                         <form method="post" asp-action="Delete" asp-route-id="@book.Id">

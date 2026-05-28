@@ -16,13 +16,25 @@ namespace BookLibrary.Repositories.Implementations
 
         public async Task<List<Book>> GetAllAsync()
         {
-            return await _context.Books.ToListAsync();
+            return await _context.Books
+                .Include(b => b.BookGenres)
+                    .ThenInclude(bg => bg.Genre)
+                .ToListAsync();
         }
 
-        public async Task<List<Book>> GetByGenreAsync(Genre genre)
+        public async Task<List<Book>> GetByGenreAsync(int genreId)
         {
             return await _context.Books
-                .Where(b => b.Genre == genre)
+                .Where(b => b.BookGenres.Any(bg => bg.GenreId == genreId))
+                .Include(b => b.BookGenres)
+                    .ThenInclude(bg => bg.Genre)
+                .ToListAsync();
+        }
+
+        public async Task<List<Genre>> GetGenresAsync()
+        {
+            return await _context.Genres
+                .OrderBy(g => g.Name)
                 .ToListAsync();
         }
 

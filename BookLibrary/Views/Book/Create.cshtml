@@ -1,4 +1,4 @@
-﻿@model BookLibrary.Models.Book
+﻿@model BookLibrary.Models.BookCreateViewModel
 
 @{
     ViewData["Title"] = "Add New Book";
@@ -24,13 +24,20 @@
             </div>
 
             <div class="mb-3">
-                <label asp-for="Genre" class="form-label"></label>
-                <select asp-for="Genre" class="form-select">
-                    @foreach (var g in (IEnumerable<BookLibrary.Models.Genre>)ViewBag.Genres)
+                <label class="form-label">Genres</label>
+                <div class="border rounded p-2">
+                    @foreach (var g in Model.AllGenres)
                     {
-                        <option value="@g">@g</option>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"
+                                   name="SelectedGenreIds" value="@g.Id"
+                                   id="genre-@g.Id"
+                                   checked="@(Model.SelectedGenreIds.Contains(g.Id))" />
+                            <label class="form-check-label" for="genre-@g.Id">@g.Name</label>
+                        </div>
                     }
-                </select>
+                </div>
+                <span asp-validation-for="SelectedGenreIds" class="text-danger"></span>
             </div>
 
             <div class="mb-3">

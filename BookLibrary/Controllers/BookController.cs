@@ -13,32 +13,42 @@ namespace BookLibrary.Controllers
             _bookService = bookService;
         }
 
-        public async Task<IActionResult> Index(Genre? genre)
+        public async Task<IActionResult> Index(int? genreId)
         {
-            ViewBag.SelectedGenre = genre;
-            ViewBag.Genres = Enum.GetValues(typeof(Genre));
+            ViewBag.SelectedGenreId = genreId;
+            ViewBag.Genres = await _bookService.GetGenresAsync();
 
-            var books = await _bookService.GetBooksAsync(genre);
+            var books = await _bookService.GetBooksAsync(genreId);
             return View(books);
         }
 
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewBag.Genres = Enum.GetValues(typeof(Genre));
-            return View();
+            var vm = new BookCreateViewModel
+            {
+                AllGenres = await _bookService.GetGenresAsync()
+            };
+            return View(vm);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Book book)
+        public async Task<IActionResult> Create(BookCreateViewModel vm)
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.Genres = Enum.GetValues(typeof(Genre));
-                return View(book);
+                vm.AllGenres = await _bookService.GetGenresAsync();
+                return View(vm);
             }
 
-            await _bookService.AddBookAsync(book);
+            var book = new Book
+            {
+                Title = vm.Title,
+                Author = vm.Author,
+                Year = vm.Year
+            };
+
+            await _bookService.AddBookAsync(book, vm.SelectedGenreIds);
             return RedirectToAction(nameof(Index));
         }
 

@@ -1,17 +1,11 @@
-﻿namespace BookLibrary.Models
+namespace BookLibrary.Models
 {
-    public enum Genre
+    public class Genre
     {
-        Fiction,
-        NonFiction,
-        Science,
-        History,
-        Fantasy,
-        Biography,
-        Mystery,
-        Horror,
-        Memoir,
-        Novel,
-        Romance
+        public int Id { get; set; }
+
+        public string Name { get; set; } = string.Empty;
+
+        public ICollection<BookGenre> BookGenres { get; set; } = new List<BookGenre>();
     }
 }
