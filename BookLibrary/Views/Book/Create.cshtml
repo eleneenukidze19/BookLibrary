@@ -4,52 +4,60 @@
     ViewData["Title"] = "Add New Book";
 }
 
-<h2>Add New Book</h2>
+<div class="row justify-content-center mt-4">
+    <div class="col-lg-7 col-md-9">
+        <h2 class="page-title">&#128221; Add a New Book</h2>
 
-<div class="row">
-    <div class="col-md-5">
-        <form asp-action="Create" method="post">
-            @Html.AntiForgeryToken()
+        <div class="card p-4 p-md-5">
+            <form asp-action="Create" method="post">
+                @Html.AntiForgeryToken()
 
-            <div class="mb-3">
-                <label asp-for="Title" class="form-label"></label>
-                <input asp-for="Title" class="form-control" placeholder="e.g. The Great Gatsby" />
-                <span asp-validation-for="Title" class="text-danger"></span>
-            </div>
-
-            <div class="mb-3">
-                <label asp-for="Author" class="form-label"></label>
-                <input asp-for="Author" class="form-control" placeholder="e.g. F. Scott Fitzgerald" />
-                <span asp-validation-for="Author" class="text-danger"></span>
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Genres</label>
-                <div class="border rounded p-2">
-                    @foreach (var g in Model.AllGenres)
-                    {
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox"
-                                   name="SelectedGenreIds" value="@g.Id"
-                                   id="genre-@g.Id"
-                                   checked="@(Model.SelectedGenreIds.Contains(g.Id))" />
-                            <label class="form-check-label" for="genre-@g.Id">@g.Name</label>
-                        </div>
-                    }
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label"></label>
+                    <input asp-for="Title" class="form-control"
+                           placeholder="e.g. The Great Gatsby" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
                 </div>
-                <span asp-validation-for="SelectedGenreIds" class="text-danger"></span>
-            </div>
 
-            <div class="mb-3">
-                <label asp-for="Year" class="form-label"></label>
-                <input asp-for="Year" class="form-control" type="number" placeholder="e.g. 2023" />
-                <span asp-validation-for="Year" class="text-danger"></span>
-            </div>
+                <div class="mb-3">
+                    <label asp-for="Author" class="form-label"></label>
+                    <input asp-for="Author" class="form-control"
+                           placeholder="e.g. F. Scott Fitzgerald" />
+                    <span asp-validation-for="Author" class="text-danger"></span>
+                </div>
 
-            <div class="d-flex gap-2">
-                <button type="submit" class="btn btn-primary">Save Book</button>
-                <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
-            </div>
-        </form>
+                <div class="mb-3">
+                    <label asp-for="Year" class="form-label"></label>
+                    <input asp-for="Year" class="form-control" type="number"
+                           placeholder="e.g. 1925" />
+                    <span asp-validation-for="Year" class="text-danger"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label">Genres</label>
+                    <div class="border rounded p-3"
+                         style="display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; background: #fafafa;">
+                        @foreach (var g in Model.AllGenres)
+                        {
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox"
+                                       name="SelectedGenreIds" value="@g.Id"
+                                       id="genre-@g.Id"
+                                       checked="@(Model.SelectedGenreIds.Contains(g.Id))" />
+                                <label class="form-check-label" for="genre-@g.Id">
+                                    @g.Name
+                                </label>
+                            </div>
+                        }
+                    </div>
+                    <span asp-validation-for="SelectedGenreIds" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex gap-2 justify-content-end">
+                    <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+                    <button type="submit" class="btn btn-primary">Save Book</button>
+                </div>
+            </form>
+        </div>
     </div>
 </div>

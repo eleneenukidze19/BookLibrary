@@ -1,8 +1,49 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero">
+    <h1>Your Personal Book Library</h1>
+    <p>
+        Catalog the books you've read, organize them by genre, and keep track
+        of your growing collection - all in one place.
+    </p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap">
+        <a asp-controller="Book" asp-action="Index" class="btn btn-primary btn-lg">
+            Browse Library
+        </a>
+        <a asp-controller="Book" asp-action="Create" class="btn btn-outline-secondary btn-lg">
+            + Add a Book
+        </a>
+    </div>
+</section>
+
+<section class="row g-4 mt-4 mb-5">
+    <div class="col-md-4">
+        <div class="card p-4 h-100 text-center">
+            <div style="font-size: 2.5rem;">&#128218;</div>
+            <h3 class="mt-2">Organize</h3>
+            <p class="text-muted mb-0">
+                Group your books with multi-genre support.
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-4 h-100 text-center">
+            <div style="font-size: 2.5rem;">&#128270;</div>
+            <h3 class="mt-2">Filter</h3>
+            <p class="text-muted mb-0">
+                Instantly find books by genre.
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-4 h-100 text-center">
+            <div style="font-size: 2.5rem;">&#10024;</div>
+            <h3 class="mt-2">Beautiful</h3>
+            <p class="text-muted mb-0">
+                Clean, modern design that feels at home.
+            </p>
+        </div>
+    </div>
+</section>
