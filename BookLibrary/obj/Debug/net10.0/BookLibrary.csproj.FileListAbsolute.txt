@@ -701,4 +701,4 @@ C:\Users\msi\Desktop\Mini projects\Book-Library\BookLibrary\obj\Debug\net10.0\re
 C:\Users\msi\Desktop\Mini projects\Book-Library\BookLibrary\obj\Debug\net10.0\BookLibrary.pdb
 C:\Users\msi\Desktop\Mini projects\Book-Library\BookLibrary\obj\Debug\net10.0\BookLibrary.genruntimeconfig.cache
 C:\Users\msi\Desktop\Mini projects\Book-Library\BookLibrary\obj\Debug\net10.0\ref\BookLibrary.dll
-C:\Users\msi\Desktop\Mini projects\Book-Library\BookLibrary\obj\Debug\net10.0\compressed\jwky7tywsa-{0}-75q879y98y-75q879y98y.gz
+C:\Users\msi\Desktop\Mini projects\Book-Library\BookLibrary\obj\Debug\net10.0\compressed\jwky7tywsa-{0}-kiyaxp5rto-kiyaxp5rto.gz
